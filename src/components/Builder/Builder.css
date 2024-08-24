@@ -1,0 +1,60 @@
+/* Builder.css */
+
+.section {
+    position: relative;
+    padding: 60px 0;
+    background-color: #f8f9fa; /* Light background for better contrast */
+}
+
+.bg-builder {
+    background: url('/path/to/your/background-image.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text contrast */
+    z-index: 1;
+}
+
+.builder-container {
+    position: relative;
+    z-index: 2;
+}
+
+.builder-content {
+    position: relative;
+    z-index: 2;
+}
+
+.builder-logo img {
+    max-width: 150px; /* Adjust logo size */
+}
+
+.builder-name {
+    font-size: 2.5rem; /* Adjust font size */
+    font-weight: bold;
+}
+
+.section-title-border {
+    width: 80px;
+    height: 3px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.builder-description {
+    font-size: 1.1rem;
+}
+
+.builder-address {
+    font-size: 1rem;
+    margin-top: 10px;
+}
